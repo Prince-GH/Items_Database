@@ -1,6 +1,6 @@
 // script.js
 
-const API_URL = 'http://localhost:3000/api/items'
+const API_URL = 'https://items-database-1.onrender.com/api/items'
 
 // DOM Elements
 const itemForm = document.getElementById('item-form')

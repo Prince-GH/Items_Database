@@ -6,7 +6,7 @@ const cors = require('cors')
 
 //====================================
 const app = express()
-const PORT = 3000
+const PORT = 'https://items-database-1.onrender.com'
 //====================================
 
 //Middleware
