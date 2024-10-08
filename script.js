@@ -1,6 +1,6 @@
 // script.js
-
-const API_URL = 'https://items-database-1.onrender.com/api/items'
+require('dotenv').config();
+const API_URL = process.env.API_URL || 'http://localhost:3000/api/items';
 
 // DOM Elements
 const itemForm = document.getElementById('item-form')

@@ -1,4 +1,5 @@
 //server.js
+require('dotenv').config();
 const express = require('express')
 const bodyParser = require('body-parser')
 const fs = require('fs')
@@ -6,7 +7,8 @@ const cors = require('cors')
 
 //====================================
 const app = express()
-const PORT = 'https://items-database-1.onrender.com'
+const PORT = process.env.PORT || 3000;
+
 //====================================
 
 //Middleware
